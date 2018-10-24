@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-straightforward",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "adds rules for object declaration first brace and array declaration first bracket on new line",
   "keywords": [
     "eslint",

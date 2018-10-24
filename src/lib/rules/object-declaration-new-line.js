@@ -64,7 +64,7 @@ module.exports =
 			declarations.forEach(declaration =>
 			{
 				// if declaration is an object declaration
-				if (declaration.init.type === "ObjectExpression")
+				if (declaration.init && declaration.init.type === "ObjectExpression")
 				{
 					const declarationNameLineNumber = declaration.id.loc.start.line;
 					const declarationObject = declaration.init;
