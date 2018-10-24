@@ -34,6 +34,7 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
+- [object-declaration-new-line](object-declaration-new-line.md)
 
 
 
